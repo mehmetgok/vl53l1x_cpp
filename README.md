@@ -8,6 +8,9 @@ Kütüphane oluşturmak için `make` komut satırı kullanılmaktadır.
 
 Örnek program olan __test__ üretmek içim `make test` komut satırı kullanılmaktadır. Bu komut satırı ile __test.cpp__ dosyası */lib/libvl53l1_api.a* kütüphanesi ile bağlanarak __test__ çalıştırılabilir kodu üretilmektedir.
 
+Direkt derleme işlemi için ise şu komut satırı kullanılabilir:
+> g++ -Ilib/core -Ilib/platform -Ilib/i2c -L. -lvl53l1_api -o test test.cpp
+
 ### Referanslar:
 * https://github.com/okalachev/vl53l1x_ros
 * https://github.com/pimoroni/vl53l1x-python
