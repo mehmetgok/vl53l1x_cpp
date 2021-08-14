@@ -5,6 +5,7 @@ Bu depoda ST Micro tarafından üretilen ve 400 cm algılama mesafesine sahip VL
 Makefile komutu ile hem VL53L1X kütüphanesi hem de örnek program  derlenmmektedir. Derlenen kütüphane adı *libvl53l1_api.a* olup /lib klasörüne el ile kopyalanmaktadır.
 
 Kütüphane oluşturmak için `make` komut satırı kullanılmaktadır.
+
 Örnek program olan __test__ üretmek içim `make test` komut satırı kullanılmaktadır.
 
 ### Referanslar:
